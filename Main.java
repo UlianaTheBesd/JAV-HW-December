@@ -1,7 +1,7 @@
 /*
 Класс Main.
 - создание меню, которое отдаётся Client : List<TypeOfDish> menu.
-- создание (BlockingQueue) очереди заказов (взаимодействие Waiter + Kitchen) : BlockingQueue<Order> queueOfOrders.
+- создание (BlockingQueue) очереди заказов (взаимодействие Client + Waiter) : BlockingQueue<Order> queueOfOrders.
  */
 
 import java.util.*;
