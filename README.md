@@ -11,8 +11,8 @@
 
 ### ОПИСАНИЕ КЛАССОВ.
 1) [Main](Main.java): создание BlockingQueue (взаимодействие Client + Waiter), создание Клиентов, Официантов, Кухни.  
-2) [Client](Client.java): 
-3) [TypeOFDish](TypeOFDish.java): класс
-4) [Order](Order.java): класс для Заказа (номер заказа + название блюда).  
-5) [Waiter](Waiter.java): 
-6) [Kitchen](Kitchen.java): 
+2) [Client](Client.java): класс Клиента (кладёт Заказ в очередь каждые 2-7 секунд (Random)).
+3) [TypeOFDish](TypeOFDish.java): класс Типа Блюда - для Main (название блюда + время готовки).
+4) [Order](Order.java): класс Заказа (номер заказа + Тип Блюда).  
+5) [Waiter](Waiter.java): класс Официанта (работа с КЛиентом через очередь, работа с Кухней через CompletableFuture).
+6) [Kitchen](Kitchen.java): класс Кухни - пул потоков "Повар".
