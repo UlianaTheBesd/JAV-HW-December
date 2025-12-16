@@ -1,2 +1,13 @@
-# JAV-HW-December-var1
-The first variation of Java Homework (with the deadlines within around 18-20.12.25).
+# Java Homework (till 19.12.2025).
+
+## АВТОР.
+Выполнила: __Лазарева Ульяна, 24КНТ-3__.  
+Вариант: __3__.
+
+## НЕБОЛЬШОЕ ОПИСАНИЕ ВАРИАНТА.
+"Многопоточная система работы ресторана (официанты + кухня)
+Реализовать модель работы ресторана, в которой официанты и повара работают параллельно, синхронизируя доступ к очереди заказов..."
+Подробнее: [Ссылка Google Docs](https://docs.google.com/document/d/14ozpnFJS3KSL61wRXmRkqHblCKdqcNjVnhxAO3Lf-ec/edit?usp=sharing)
+
+## ОПИСАНИЕ КЛАССОВ.
+1) 
