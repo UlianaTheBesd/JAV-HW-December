@@ -36,7 +36,6 @@ public class Client extends Thread {
 
                 queue.put(order);
                 System.out.println("Client ordered: " + dish.getName() + ". Id: " + order.getId() + ".");
-                Thread.sleep(2); // Для правильного вывода - чтобы Waiter не "брал заказ" раньше.
             }
         } catch (InterruptedException e) {
             interrupt();
