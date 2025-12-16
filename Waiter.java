@@ -32,6 +32,7 @@ public class Waiter extends Thread {
 
                 String result = order.getF().get();
 
+                Thread.sleep(1); // Для правильного вывода - чтобы Waiter не "брал заказ" раньше.
                 System.out.println("Waiter " + getName() + " brought: " + result + ". Id: " + order.getId() + ".");
             }
         } catch (InterruptedException e) {
