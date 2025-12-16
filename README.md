@@ -7,7 +7,7 @@
 ### НЕБОЛЬШОЕ ОПИСАНИЕ ВАРИАНТА.
 "Многопоточная система работы ресторана (официанты + кухня)  
 Реализовать модель работы ресторана, в которой официанты и повара работают параллельно, синхронизируя доступ к очереди заказов..."  
-Подробнее: [Ссылка Google Docs](https://docs.google.com/document/d/14ozpnFJS3KSL61wRXmRkqHblCKdqcNjVnhxAO3Lf-ec/edit?usp=sharing)
+Подробнее: [Ссылка Google Docs](https://docs.google.com/document/d/14ozpnFJS3KSL61wRXmRkqHblCKdqcNjVnhxAO3Lf-ec/edit?usp=sharing).
 
 ### ОПИСАНИЕ КЛАССОВ.
 1) [Main](Main.java): создание BlockingQueue (взаимодействие Client + Waiter), создание Клиентов, Официантов, Кухни.  
